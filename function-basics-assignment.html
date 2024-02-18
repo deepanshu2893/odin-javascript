@@ -9,6 +9,50 @@
 
 <body>
 
+    <script>
+        // function add7(number) {
+        //     return number + 7;
+        // }
+
+        // function multiply(num1, num2) {
+        //     return num1 * num2;
+
+        // }
+
+        // function capitalize(argument) {
+        //     return argument.charAt(0).toUpperCase() + argument.slice(1).toLowerCase();
+        // }
+        // function lastLetter(argument) {
+        //     return argument.charAt(argument.length - 1);
+        // }
+
+        // console.log(add7(10));
+        // console.log(multiply(2, 2));
+        // console.log(capitalize("hello"));
+        // console.log(lastLetter("hello"));
+
+        let number = 9;
+
+        for (let i = 1; i <= number; i++) {
+            if (number % 3 === 0 && number % 5 === 0) {
+                console.log("FizzBuzz");
+                break;
+            }
+            else if (number % 5 === 0) {
+                console.log("Buzz");
+                break;
+            }
+            else if (number % 3 === 0) {
+                console.log("Fizz");
+                break;
+            }
+            else {
+                console.log(i);
+            }
+        }
+
+    </script>
+
 </body>
 
 </html>

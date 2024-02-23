@@ -1,6 +1,6 @@
 const link = document.querySelector("a");
 
-link.textContent = "Mozilla Developer Network";
+link.textContent = "Mozilla Developer Network!";
 link.href = "https://developer.mozilla.org";
 
 const sect = document.querySelector("section");
@@ -20,4 +20,4 @@ const text = document.createTextNode(
     sect.appendChild(linkPara);
    
 
-   linkPara.remove(); 
+   

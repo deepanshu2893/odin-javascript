@@ -59,3 +59,7 @@ buttons.forEach((button) => {
         alert(button.id);
     });
 });
+
+
+const div = document.querySelector("#container")
+// div.textContent = "Hello"
